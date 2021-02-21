@@ -6,8 +6,9 @@ from django.contrib.auth.models import User
 class Post(models.Model):
     INSURANCE_CHOICES = (
         ('Life', (
-            ('term', 'Term'),
-            ('full', 'Full'),
+            ('Term', 'Term'),
+            ('Full', 'Full'),
+            ('Whole', 'Whole'),
         )
          ),
         ('Auto', (
